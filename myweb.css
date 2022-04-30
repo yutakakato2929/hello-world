@@ -1,0 +1,158 @@
+.list_nav_header {
+    display: flex;
+    justify-content: space-around;/*均等配置*/
+    width: 700px;
+    margin-left: auto;/*右寄せ*/
+    list-style: none;/*黒点削除*/
+    padding:0;/*navだとpaddingが初期設定されているため*/
+    background-color: rgba(243, 229, 102, 0.822);
+    border: solid 2px rgba(224, 209, 66, 0.822);
+    border-radius: 10px;/*角を丸める*/
+}
+.list_nav_header a {
+    text-decoration: none;/*下線削除*/
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;/*文字太く*/
+    text-shadow:1px 0 5px rgba(187, 176, 78, 0.822);
+}
+
+
+body {
+    background-image: url(images/background.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1300px;/*真ん中寄せ*/
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.area_top_view > .container{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.area_top_view p {
+    font-size: 2rem;
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;/*グラデーション*/
+    font-weight: bold;
+}
+.area_top_view img {
+    width: 200px;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background-color: rgba(243, 229, 102, 0.822);
+    border: solid 2px rgba(224, 209, 66, 0.822);
+    text-shadow:1px 0 3px rgba(187, 176, 78, 0.822);
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    margin: auto;/*真ん中寄せ*/
+    text-align: center;
+}
+
+
+.layout_2_div {
+    display: flex;
+    height: 800px;
+    margin: auto;
+    align-items: center;
+}
+.img img{
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+}
+.layout_2_div div{
+    width:50%;
+}
+.text_home {
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 45px;
+    padding: 30px;
+}
+
+.list_hobby {
+    display: flex;
+    height: 850px;
+}
+.list_hobby li{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+.list_hobby img {
+    width: auto;
+    height: 200px;
+    border-radius: 45px;
+}
+.hobby_text {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 5px #4585c0;
+    background-color: rgba(255, 255, 255, 0.363);
+    border-radius: 8px;
+    height: 550px;
+}
+.hobby_text .ttl {
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 2rem;
+    color: #4585c0;
+    font-weight: bold;
+}
+
+.list_favorite {
+    display:flex;
+    flex-wrap: wrap;
+}
+.list_favorite > li{
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.list_favorite img{
+    width: auto;
+    height: 150px;
+    border-radius: 30px;
+}
+.list_youtuber img {
+    width: auto;
+    height: 100px;
+}
+.sub_ttl {
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+}
+.description {
+    font-size: 1.5rem;
+    line-height: 60px;
+}
+.ttl {
+    font-size: 2rem;
+    text-align: center;
+}
